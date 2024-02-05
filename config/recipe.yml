@@ -49,5 +49,5 @@ modules:
   - type: script
 
     scripts:
-      - desktop_file_cleanup.sh
+      - desktop-file-cleanup.sh
       - signing.sh
