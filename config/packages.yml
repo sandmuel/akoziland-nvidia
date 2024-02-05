@@ -1,0 +1,18 @@
+type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-rawhide/swayfx-swayfx-fedora-rawhide.repo
+install:
+  # core
+  - swayfx # window manager
+  - waybar # status bar
+  - rofi # app launcher
+  - fish # shell
+  - alacritty # terminal emulator
+  # useful software
+  - dunst # notifications
+  - grimshot # screenshot tool
+  - mc # file manager
+  # misc utilities
+  - libnotify # notifications
+  - light # backlight management
+  - pulseaudio-utils # volume management
